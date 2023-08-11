@@ -1,0 +1,342 @@
+.fondonav{
+    background-image: url('../../assets/imagenes/fondo_nav.jpg') ;
+    height: 650px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   width: 100%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content:flex-end;
+    margin-right:2px;
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+   padding:20px;
+    margin-right: 70px;
+    font-size: 30px;
+    
+}
+.nav_options img{
+    padding-right: 7px;
+    margin-right: 150px;
+  
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+.iniciar_sesion{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.mision{
+width: 570px;
+margin-right: 80px;
+border-radius: 35px;
+/* border: 0px 0px 40px  #034DAE; */
+border-width: 0px 0.2px 2px;
+border-style: none solid solid;
+border-color: transparent #034DAE #034DAE;
+box-shadow: 0px 0.5px 3px #034DAE;
+
+}
+.mision h3{
+    margin-top: 30px;
+ justify-content: center;
+ text-align: center;   
+ font-size: 30px;
+ color:#034DAE;
+}
+.mision p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    margin-top: 40px;
+    
+}
+.vision{
+    width: 570px;
+margin-right: 80px;
+border-radius: 35px;
+/* border: 0px 0px 40px  #034DAE; */
+border-width: 0px 0.5px 2px;
+border-style: none solid solid;
+border-color: transparent #034DAE #034DAE;
+box-shadow: 0px 1px 3px #034DAE;
+
+}
+.vision p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    margin-top: 40px;
+    
+}
+.vision h3{
+    margin-top: 30px;
+ justify-content: center;
+ text-align: center;   
+ font-size: 30px;
+ color:#034DAE;
+}
+.objetivo{
+    width: 570px;
+margin-right: 80px;
+border-radius: 35px;
+margin-left: 400px;
+border-width: 0px 0.5px 2px;
+border-style: none solid solid;
+border-color: transparent #034DAE #034DAE;
+box-shadow: 0px 1px 3px #034DAE;
+}
+
+.objetivo p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.objetivo h3{
+    margin-top: 35px;
+ justify-content: center;
+ text-align: center;   
+ font-size: 30px;
+ color:#034DAE;
+}
+
+.registro_pacientes{
+    display: flex;
+margin-left: 120px;
+margin-top: 50px;
+}
+.pacientes{
+    margin-right: 100px;
+    border-width: 0px 0.5px 2px;
+    border-style: none solid solid;
+    border-color: transparent #034DAE #034DAE;
+    box-shadow: 0px 1px 3px #034DAE;
+    width: 300px;
+    border-radius: 20px;
+}
+.pacientes h3{
+    text-align: center;
+    font-size: 20px;
+    color:#034DAE;
+}
+
+.psico_esp{
+    margin-right: 100px;
+    border-width: 0px 0.5px 2px;
+    border-style: none solid solid;
+    border-color: transparent #034DAE #034DAE;
+    box-shadow: 0px 1px 3px #034DAE;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.psico_esp h3{
+    text-align: center;
+    font-size: 20px;
+    color:#034DAE;
+}
+
+.rehab{
+    margin-right: 100px;
+    border-width: 0px 0.5px 2px;
+    border-style: none solid solid;
+    border-color: transparent #034DAE #034DAE;
+    box-shadow: 0px 1px 3px #034DAE;
+    width: 300px;
+    border-radius: 20px;
+}
+.rehab h3{
+    text-align: center;
+    font-size: 20px;
+    color:#034DAE;
+}
+
+.servicios-container{
+    display: flex;
+    margin-left: 45px;
+   margin-right: 2px;
+}
+.servicio1{
+width: 250px;
+margin-right: 160px;
+
+
+}
+.servicio2{
+    width: 250px;
+    margin-right: 180px;
+        
+}
+.servicio3{
+    width: 250px;
+    margin-right: 20px;
+
+}
+.servicio3 p{
+    position: absolute;
+    margin-top: 0;
+    top: 1960px;
+    right: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+}
+.servicio2 p{
+    position: absolute;
+    margin-top: 0;
+    top: 1960px;
+    right: 480px;
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+}
+.servicio1 p{
+    position: absolute;
+    margin-top: 0;
+    top: 1940px;
+    right: 1000px;
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    text-align: justify;
+    width: 100px;
+}
+.sombra{
+    position: absolute;
+    top: 1550px;
+}
+.sombra2{
+    position: absolute;
+    top: 1550px;
+    right: 460px;
+    width: 396px;
+    height: 505px;
+}
+.sombra3{
+    position: absolute;
+    top: 1550px;
+    right: 42px;
+    width: 384px;
+    height: 505px;
+}
+.servicios_titulo{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.boton_servicio{
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 60px;
+    border-width: 0px 0.5px 2px;
+    border-style: none solid solid;
+    border-color: transparent #034DAE #034DAE;
+    box-shadow: 0px 1px 3px #034DAE;
+    background-color: white;
+    font-weight: bold;
+}
+
+.boton_servicio a{
+    text-decoration: none;
+    color:#034DAE;
+}
+/* Equipo  */
+
+.equipo-container{
+    display: flex;
+    margin-left: 45px;
+   margin-right: 2px;
+}
+.equipo-titulo{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.psico1{
+    width: 250px;
+margin-right: 160px;
+}
+.psico2{
+    width: 250px;
+    margin-right: 180px;
+}
+.psico3{
+    width: 250px;
+    margin-right: 20px;
+
+}
+.boton_equipos{
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 60px;
+    border-width: 0px 0.5px 2px;
+    border-style: none solid solid;
+    border-color: transparent #034DAE #034DAE;
+    box-shadow: 0px 1px 3px #034DAE;
+    background-color: white;
+    font-weight: bold;
+}
+.boton_equipos a{
+    text-decoration: none;
+    color:#034DAE;
+}
+.convenios-titulo{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.convenios_container{
+    display: flex;
+    margin-left: 45px;
+   margin-right: 2px;
+   border-width: 0px 0.5px 2px;
+   border-style: none solid solid;
+   border-color: transparent #034DAE #034DAE;
+   box-shadow: 0px 1px 3px #034DAE;
+   background-color: white;
+   border-radius: 40px;
+}
+.convenios_container img{
+    margin-top: 40px;
+}
+.c1{
+
+   margin-left: 100px;
+    width: 200px;
+}
+.c2{
+    width: 340px;
+}
+.c3{
+    width: 250px;
+}
