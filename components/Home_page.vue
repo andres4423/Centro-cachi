@@ -71,7 +71,7 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
         <p>Terapia de pareja</p>
     </div>
 </div>
-<button class="boton_servicio"><router-link to="/devices">Conoce más</router-link></button>
+<router-link to="/devices"><button class="boton_servicio">Conoce más</button></router-link>
 <br>
 <br>
 <!-- Equipo -->
@@ -88,7 +88,7 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
 <img src="../assets/imagenes/psico3.png">
 </div>
 </div>
-<button class="boton_equipos"><router-link to="/equipo">Conoce más</router-link></button>
+<router-link to="/equipo"><button class="boton_equipos">Conoce más</button></router-link>
 <br>
 <br>
 
@@ -111,7 +111,31 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
 </div>
 <br>
 <br>
+
+<!-- FOOTER -->
+
+<div class="footer-container">
+    
+
+        <img class="logo" src="../assets/imagenes/logo.png">
+
+      
+        
+            <img class ="celular" src="../assets/imagenes/telefono.png">
+            <p class="cel_p">300 233 6900</p>
+         
+            <img class="correo" src="../assets/imagenes/correo.png"> 
+            <p class="correo_p">centro_psicoterapiaValencia@gmail.com</p>
+
+            <img class="direccion" src="../assets/imagenes/direccion.png">
+            <p class="dir_p">Calle 93 #33A-120</p>
+        <div class="redes">
+
+        </div>
 </div>
+</div>
+
+
 </template>
 
 <script>

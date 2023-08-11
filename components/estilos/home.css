@@ -260,28 +260,30 @@ margin-right: 160px;
     box-shadow: 0px 1px 3px #034DAE;
     background-color: white;
     font-weight: bold;
+    color:#034DAE;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.boton_servicio a{
-    text-decoration: none;
-    color:#034DAE;
-}
+
 /* Equipo  */
 
 .equipo-container{
     display: flex;
-    margin-left: 45px;
+    margin-left: 95px;
    margin-right: 2px;
 }
 .equipo-titulo{
     text-align: center;
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 40px;
+    
 }
 
 .psico1{
     width: 250px;
 margin-right: 160px;
+
 }
 .psico2{
     width: 250px;
@@ -305,11 +307,11 @@ margin-right: 160px;
     box-shadow: 0px 1px 3px #034DAE;
     background-color: white;
     font-weight: bold;
-}
-.boton_equipos a{
-    text-decoration: none;
     color:#034DAE;
+    cursor: pointer;
+    text-decoration: none;
 }
+
 .convenios-titulo{
     text-align: center;
     margin-bottom: 40px;
@@ -340,3 +342,60 @@ margin-right: 160px;
 .c3{
     width: 250px;
 }
+.footer-container{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #7cacea,#ffff, #3bca76 );
+ 
+}
+.footer-container .logo{
+    margin-top: 90px;
+    padding: 40px;
+    width: 300px;
+}
+.footer-container .celular{
+  width: 40px;
+  height: 40px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.cel_p{
+    margin-top: 110px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    height: 10px;
+}
+.footer-container .correo{
+    width: 40px;
+    height: 30px;
+    margin-top: 110px;
+    margin-left: 60px;
+}
+.correo_p{
+    margin-top: 110px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.direccion{
+    width: 40px;
+    height: 40px;
+    margin-top: 210px;
+    position: absolute;
+    margin-left: 530px;
+}
+
+.dir_p{
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 570px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
