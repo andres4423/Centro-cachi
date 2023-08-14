@@ -1,0 +1,51 @@
+.serv_nav{
+    border-bottom: 2px solid #034DAE;
+}
+.imgI img{
+background-size: cover;
+z-index: 1;
+
+}
+.nav-container{
+    height: 110px;
+    z-index: 120;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+}
+.nav_options li{
+    font-size: 32px;
+
+}
+.iniciar_sesion{
+    height: 35px;
+}
+.servicio{
+    margin-left: 80px;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 35px;
+border-width: 0px 0.2px 4px;
+border-style: none solid solid;
+border-color: transparent #E0E0E0 #E0E0E0;
+
+width: 1150px;
+overflow-y: hidden;
+}
+
+.servicio img{
+    width: 500px;
+    height: 100%;
+}
+.sTitulo{
+margin-left: 20px;
+}
+.sTitulo p{
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.sTitulo h1{
+    text-align: center;
+}
+

@@ -8,8 +8,9 @@
       <li><router-link to="/equipo">Equipo</router-link></li>
       <li><router-link to="/devices">Servicios</router-link></li>
       <li><button class="iniciar_sesion">Iniciar sesion</button></li>
-      <router-view></router-view>
-    </ul>  
+     
+    </ul>
+    <router-view></router-view>  
 </div>
 <!-- Mision, visión y objetivo -->
 <div class="info-container">
