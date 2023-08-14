@@ -153,16 +153,10 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
 
 export default {
     name:'serviciosCentro',
-<<<<<<< HEAD
     components:{        
     }
     
-=======
-    components:{
-        
-    }
 
->>>>>>> d4e5a93ccf7bb7ee6fd2cdab280b58eee417c6e9
 }
 
 </script>
