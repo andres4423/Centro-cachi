@@ -5,6 +5,15 @@
     background-repeat: no-repeat;
    width: 100%;
 }
+.wspLink img{
+   width: 90px;
+}
+.wspLink{
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    z-index: 999; 
+}
 ul{
     display: flex;
     width: 100%;
@@ -22,7 +31,7 @@ ul li{
 }
 .nav_options img{
     padding-right: 7px;
-    margin-right: 150px;
+    margin-right: 170px;
   
 }
 ul li a{
@@ -197,7 +206,7 @@ margin-right: 160px;
 .servicio3 p{
     position: absolute;
     margin-top: 0;
-    top: 1960px;
+    top: 2080px;
     right: 60px;
     font-size: 40px;
     font-weight: bold;
@@ -206,7 +215,7 @@ margin-right: 160px;
 .servicio2 p{
     position: absolute;
     margin-top: 0;
-    top: 1960px;
+    top: 2080px;
     right: 480px;
     font-size: 40px;
     font-weight: bold;
@@ -215,7 +224,7 @@ margin-right: 160px;
 .servicio1 p{
     position: absolute;
     margin-top: 0;
-    top: 1940px;
+    top: 2040px;
     right: 1000px;
     font-size: 40px;
     font-weight: bold;
@@ -225,18 +234,18 @@ margin-right: 160px;
 }
 .sombra{
     position: absolute;
-    top: 1550px;
+    top: 1660px;
 }
 .sombra2{
     position: absolute;
-    top: 1550px;
+    top: 1660px;
     right: 460px;
     width: 396px;
     height: 505px;
 }
 .sombra3{
     position: absolute;
-    top: 1550px;
+    top: 1660px;
     right: 42px;
     width: 384px;
     height: 505px;

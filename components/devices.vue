@@ -1,18 +1,11 @@
 <template>
   <div class="compo">
 
-    <div class="nav-container">
-        <!--Navbar  -->
-    <ul class="nav_options">
-        <img src="../assets/imagenes/logo.png">
-        <li><router-link to="/inicio">Inicio</router-link></li>
-      <li><router-link to="/equipo">Equipo</router-link></li>
-      <li><router-link  class="serv_nav" to="/">Servicios</router-link></li>
-      <li><button class="iniciar_sesion">Iniciar sesion</button></li>
+ 
+    
 
-    </ul>
-          <router-view></router-view>  
-</div>
+
+
 <div class="imgI">
     <img src="../assets/ImgS/Se.png">
 </div>
@@ -155,9 +148,15 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
 <style scoped>
 @import url('./estilos/servicios.css');
 </style>
+
 <script>
+
 export default {
-    name:'serviciosCentro'
+    name:'serviciosCentro',
+    components:{        
+    }
+    
 }
+
 </script>
 
