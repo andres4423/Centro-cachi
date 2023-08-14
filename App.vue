@@ -1,19 +1,21 @@
 <template>
   
-  <Servicios/>
-  
+  <navBar/>
+    
   </template>
 
 <script>
 
-// import Home_page from './components/Home_page.vue';
-// import Homepage from './components/Home_page.vue'
-import Servicios from './components/devices.vue'
+
+//  import Homepage from './components/Home_page.vue'
+// import Servicios from './components/devices.vue'
+ import navBar from './components/navbar.vue'
 export default {
   name: 'App',
   components: {
     // Homepage,
-    Servicios
+    // Servicios
+    navBar
   
 }
 }

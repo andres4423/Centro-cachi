@@ -1,17 +1,15 @@
 <template>
     <div class="comp">
-    <div class="fondonav">
-        <!--Navbar  -->
-    <ul class="nav_options">
-        <img src="../assets/imagenes/logo.png">
-        <li><router-link to="/">Inicio</router-link></li>
-      <li><router-link to="/equipo">Equipo</router-link></li>
-      <li><router-link to="/devices">Servicios</router-link></li>
-      <li><button class="iniciar_sesion">Iniciar sesion</button></li>
-     
-    </ul>
-    <router-view></router-view>  
-</div>
+        <!-- <navBar></navBar> -->
+        <div class="fondonav">
+            <!-- <h1>Bienvenido a nuestro centro</h1> -->
+        </div>
+        <a
+        :href="whatsApp"
+        class="wspLink"
+        target="_blank">
+        <img src="../assets/imagenes/wsp.png">
+        </a>
 <!-- Mision, visión y objetivo -->
 <div class="info-container">
     <div class="mision">
@@ -140,10 +138,22 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
 </template>
 
 <script>
+
+// import navBar from './navbar.vue'
 export default{
     name:'Home_page',
     props:{   
-    }
+    },
+    data(){
+        return{
+            whatsApp :"https://api.whatsapp.com/send?phone=3162541566"
+        }
+    },
+    // components:{
+    //      navBar
+        
+    //  }
+
 
 }
 </script>
