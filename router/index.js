@@ -2,10 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Homepage from '../components/Home_page.vue'
 import devices from '../components/devices.vue'
-import equipo from '../components/equipo.vue'
+import equipo from '../components/portal_plantilla.vue'
+import paciente from '../components/paciente.vue'
+
 const routes = [
   {
-    path: '/inicio',
+    path: '/',
     name: 'inicio',
     component: Homepage
   },
@@ -18,7 +20,14 @@ const routes = [
   path: '/equipo',
 component: equipo
 },
+{
+path:'/paciente',
+component:paciente
+},
+{
 
+
+},
   {
     path: '/about',
     name: 'about',

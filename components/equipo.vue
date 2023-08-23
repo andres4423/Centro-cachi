@@ -1,19 +1,18 @@
 <template>
-    
-    <div class="game">
-        <h1>aaaaaaaa</h1>
+   <div class="compon">
+<navBar></navBar>
 
-
-        <h2>a</h2>
-
-        <h2>la hermana de juanito </h2>
-    </div>
+   </div>
     
 </template>
 
 <script>
+import navBar from './navbar.vue'
 export default {
     name:'equipoCentro',
-    props:{}
+    props:{},
+    components:{
+        navBar
+    }
 }
 </script>

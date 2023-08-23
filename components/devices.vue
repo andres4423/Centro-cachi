@@ -1,7 +1,7 @@
 <template>
   <div class="compo">
 
- 
+ <navBar></navBar>
     
 
 
@@ -150,11 +150,12 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
 </style>
 
 <script>
-
+import navBar from './navbar.vue'
 export default {
     name:'serviciosCentro',
 
-    components:{        
+    components:{      
+        navBar  
     }
 
 

@@ -1,0 +1,91 @@
+.paciente{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 40px;
+    border:  2px solid #034DAE;
+    border-radius: 10px;
+    width: 800px;
+    background-color: white;
+}
+.am{
+    background-image: url('../../assets/imagenes/fondo_paciente.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+.desenfoque{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1000px);
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+.paciente .n_paciente{
+    margin-left: 35px;
+    margin-right: 60px;
+}
+
+.paciente .esp{
+    margin-right: 60px;
+}
+
+.historial_boton{
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: white;
+    border:  2px solid #034DAE;
+    border-radius: 16px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.op1{
+    margin-top: 60px;
+    list-style: none;
+    
+}
+.opc{
+    width: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    background-color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #034DAE;
+    margin-bottom: 40px;
+}
+
+
+.op1 .op2{
+text-decoration: none;
+width: 90px; 
+color:black;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+
+
+
+
+.op1 .opc2{
+    margin-bottom: 40px;
+    background-color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #034DAE;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+
+

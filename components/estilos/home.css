@@ -14,7 +14,7 @@
     right: 20px;
     z-index: 999; 
 }
-ul{
+.nav_options{
     display: flex;
     width: 100%;
     justify-content:flex-end;
@@ -272,6 +272,11 @@ margin-right: 160px;
     cursor: pointer;
     text-decoration: none;
 }
+.boton_servicio:hover{
+    background-color: #034DAE;
+    color: white;
+    transition: ease-in 0.2s ;
+}
 
 
 /* Equipo  */
@@ -302,6 +307,7 @@ margin-right: 160px;
     margin-right: 20px;
 
 }
+
 .boton_equipos{
     margin-left: 40%;
     margin-top: 50px;
@@ -319,7 +325,11 @@ margin-right: 160px;
     cursor: pointer;
     text-decoration: none;
 }
-
+.boton_equipos:hover{
+    background-color: #034DAE;
+    color: white;
+    transition: ease-in 0.2s ;
+}
 .convenios-titulo{
     text-align: center;
     margin-bottom: 40px;

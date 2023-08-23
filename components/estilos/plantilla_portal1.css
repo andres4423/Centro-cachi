@@ -1,0 +1,17 @@
+.head{
+    background-color: #D7D7D7;
+height: auto;
+}
+.op{
+    width: 207px;
+    background-color: #D7D7D7;
+    height: 550px;
+    margin-top: 0;
+}
+.op1{
+    margin-top: 0;
+}
+
+.container{
+    display: flex;
+}

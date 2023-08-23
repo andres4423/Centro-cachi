@@ -1,22 +1,22 @@
 <template>
-  
-  <navBar/>
-    
+
+  <RouterView></RouterView>
+  <div class="a">
+<!-- <portal_plantilla></portal_plantilla> -->
+  <!-- <paciente></paciente> -->
+</div>
+   
   </template>
 
 <script>
 
-
-//  import Homepage from './components/Home_page.vue'
-// import Servicios from './components/devices.vue'
- import navBar from './components/navbar.vue'
+// import paciente from './components/paciente.vue';
+// import portal_plantilla from './components/portal_plantilla.vue';
 export default {
   name: 'App',
   components: {
-    // Homepage,
-    // Servicios
-    navBar
-  
+  // portal_plantilla
+  // paciente
 }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div class="comp">
-        <!-- <navBar></navBar> -->
+        <navBar></navBar>
         <div class="fondonav">
             <!-- <h1>Bienvenido a nuestro centro</h1> -->
         </div>
@@ -79,12 +79,24 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
 
 <div class="psico1">
 <img src="../assets/imagenes/psico1.png">
+<div class="overlay">
+          <p>Nombre del psicólogo</p>
+          <p>Descripción o información adicional</p>
+        </div>
 </div>
 <div class="psico2">
 <img src="../assets/imagenes/psico2.png">
+<div class="overlay">
+          <p>Nombre del psicólogo</p>
+          <p>Descripción o información adicional</p>
+        </div>
 </div>
 <div class="psico3">
 <img src="../assets/imagenes/psico3.png">
+<div class="overlay">
+          <p>Nombre del psicólogo</p>
+          <p>Descripción o información adicional</p>
+        </div>
 </div>
 </div>
 <router-link to="/equipo"><button class="boton_equipos">Conoce más</button></router-link>
@@ -139,7 +151,7 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
 
 <script>
 
-// import navBar from './navbar.vue'
+ import navBar from './navbar.vue'
 export default{
     name:'Home_page',
     props:{   
@@ -149,10 +161,10 @@ export default{
             whatsApp :"https://api.whatsapp.com/send?phone=3162541566"
         }
     },
-    // components:{
-    //      navBar
+     components:{
+          navBar
         
-    //  }
+      }
 
 
 }
