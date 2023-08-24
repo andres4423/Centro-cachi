@@ -1,0 +1,25 @@
+.nombre_f{
+    display:  flex;
+    height: 80px;
+}
+
+.nombre_f .nombrep{
+    margin-left: 150px;
+    font-size: 30px;
+}
+.nombre_f .fecha{
+    margin-left: 350px;
+    font-size: 30px;
+}
+
+form .des_title{
+    text-align: center;
+    font-size: 30px;
+}
+
+form .descripcion_cita{
+    width: 800px;
+    margin-left: 160px;
+    height: 248px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

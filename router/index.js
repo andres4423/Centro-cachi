@@ -4,7 +4,8 @@ import Homepage from '../components/Home_page.vue'
 import devices from '../components/devices.vue'
 import equipo from '../components/portal_plantilla.vue'
 import paciente from '../components/paciente.vue'
-
+import citas_doc from '../components/citas_doc.vue';
+import empezar_cita from '../components/empezar_cita.vue'
 const routes = [
   {
     path: '/',
@@ -23,6 +24,16 @@ component: equipo
 {
 path:'/paciente',
 component:paciente
+},
+
+{
+  path:'/citas_doc',
+  component:citas_doc
+},
+
+{
+  path:'/empezar_c',
+  component:empezar_cita
 },
 {
 

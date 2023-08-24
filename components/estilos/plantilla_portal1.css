@@ -8,10 +8,26 @@ height: auto;
     height: 550px;
     margin-top: 0;
 }
-.op1{
-    margin-top: 0;
-}
 
 .container{
     display: flex;
 }
+
+.op1{
+    margin-top: 60px;
+    list-style: none;
+    
+}
+
+.op2{
+    text-decoration: none;
+width: 90px; 
+color:black;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+
+
+
+

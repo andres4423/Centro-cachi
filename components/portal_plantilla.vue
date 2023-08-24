@@ -11,7 +11,12 @@
             <RouterLink class="op2" to="/paciente">Pacientes</RouterLink>
         </div>
         <div class="opc2">
-        <RouterLink class="op2" to="/">Citas</RouterLink>
+        <RouterLink class="op2" to="/citas_doc">Citas</RouterLink>
+        </div>
+      </div>
+      <div class="op3">
+        <div class="opc3">
+            <RouterLink class="op2" to="/empezar_c">Log out</RouterLink>
         </div>
       </div>
     </div>
