@@ -1,6 +1,7 @@
 <template>
 
 <div class="compon3">
+
     <div class="head">
         <img src="../assets/imagenes/logo.png">
     </div>
@@ -27,7 +28,7 @@
         <div class="paciente">
 <h2 class="n_paciente">Ferney Díaz cardenas</h2>
 <h2 class="esp">Terapia de apoyo</h2>
-<button class="historial_boton">Ver historial</button>
+
 
         </div>
         
@@ -47,6 +48,9 @@
         
 
     </div>
+</div> 
+<div class="boton_historial_container">
+    <button class="historial_boton"><RouterLink to="/historial">Ver historial</RouterLink></button>
 </div>
 </div>
 </template>

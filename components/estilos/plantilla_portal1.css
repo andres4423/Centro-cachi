@@ -5,8 +5,9 @@ height: auto;
 .op{
     width: 207px;
     background-color: #D7D7D7;
-    height: 550px;
+    height: 620px;
     margin-top: 0;
+    position: sticky;
 }
 
 .container{
@@ -16,8 +17,8 @@ height: auto;
 .op1{
     margin-top: 60px;
     list-style: none;
-    
 }
+
 
 .op2{
     text-decoration: none;
@@ -25,9 +26,12 @@ width: 90px;
 color:black;
 margin-left: 20px;
 margin-top: 20px;
+
 }
-
-
+.vista img{
+    height: 520px;
+    margin-left: 160px;
+}
 
 
 

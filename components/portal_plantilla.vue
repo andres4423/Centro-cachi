@@ -3,6 +3,7 @@
 <div class="compon3">
     <div class="head">
         <img src="../assets/imagenes/logo.png">
+        
     </div>
     <div class="container">
         <div class="op">
@@ -16,11 +17,12 @@
       </div>
       <div class="op3">
         <div class="opc3">
-            <RouterLink class="op2" to="/empezar_c">Log out</RouterLink>
+            <RouterLink class="op2" to="/">Log out</RouterLink>
         </div>
       </div>
     </div>
-    <div class="a">
+    <div class="vista">
+        <img src="../assets/imagenes/fondo_paciente.png">
         <RouterView></RouterView>
     </div>
 </div>

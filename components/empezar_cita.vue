@@ -17,10 +17,11 @@
             <div class="opc3">
                 <RouterLink class="op2" to="/empezar_c">Log out</RouterLink>
             </div>
-          </div>
+          </div>    
         </div>
-
-        <div class="form_cita">
+        <div class="am">
+            <div class="desenfoque"></div>
+       <div class="form_cita">
 
         
         <div class="nombre_f">
@@ -30,12 +31,17 @@
         <form action="" method="">
             <h2 class="des_title">Descripción de la cita</h2>
              <textarea class="descripcion_cita" placeholder="Descripción Terapia"></textarea>
-
+            <h2 class="recomendaciones_t">Recomendaciones</h2>
+            <textarea class="descripcion_cita" placeholder="Recomendaciones"></textarea>
+           <br>
+            <button  class="envio_form" type=submit>Enviar</button>
 
         </form>
             
     </div>
     </div>
+</div>
+ 
 </div>
 
 

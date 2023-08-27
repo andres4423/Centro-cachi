@@ -100,6 +100,15 @@ margin-top: 20px;
     margin-bottom: 40px;
 }
 
+.boton_historial_container{
+    position: absolute;
+    top:150px;
+    right: 220px;
+}
+.historial_boton a{
+    text-decoration: none;
+}
+
 
 
 

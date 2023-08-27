@@ -20,6 +20,20 @@ form .des_title{
 form .descripcion_cita{
     width: 800px;
     margin-left: 160px;
-    height: 248px;
+    height: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.recomendaciones_t{
+     text-align: center;
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+
+.envio_form{
+    width: 170px;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
 }

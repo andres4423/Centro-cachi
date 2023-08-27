@@ -15,39 +15,41 @@
           </div>
           <div class="op3">
             <div class="opc3">
-                <RouterLink class="op2" to="/empezar_c">Log out</RouterLink>
+                <RouterLink class="op2" to="/">Log out</RouterLink>
             </div>
           </div>
-        </div>
+        </div>  
         <div class="am">
             <div class="desenfoque">
-    
             </div>
-            <div class="paciente">
-    <h2 class="n_paciente">Ferney Díaz cardenas</h2>
 
-    <h2 class="esp">Terapia de apoyo</h2>
-    <button class="historial_boton">Iniciar Cita</button>
-    
+            <div class="pac_cita">
+        <h2 class="n_paciente">Ferney Díaz cardenas</h2>
+         <div class="espace"></div>
+<h2 class="espe">Terapia de apoyo</h2>
+
             </div>
-            
-            <div class="paciente">
-    <h2 class="n_paciente">Ferney Díaz cardenas</h2>
-    <h2 class="esp">Terapia de apoyo</h2>
-    <button class="historial_boton">Iniciar Cita</button>
-    
+
+                 <div class="pac_cita">
+        <h2 class="n_paciente">Ferney Díaz cardenas</h2>
+         <div class="espace"></div>
+<h2 class="espe">Terapia de apoyo</h2>
+
             </div>
-            
-            <div class="paciente">
-    <h2 class="n_paciente">Ferney Díaz cardenas</h2>
-    <h2 class="esp">Terapia de apoyo</h2>
-    <button class="historial_boton">Iniciar cita</button>
-    
+            <div class="pac_cita">
+        <h2 class="n_paciente">Ferney Díaz cardenas</h2>
+        <div class="espace"></div>
+<h2 class="espe">Terapia de apoyo</h2>
+
             </div>
             
     
         </div>
+     
     </div>
+   <div class="empezar_boton_container">
+    <button class="empezar_boton"><RouterLink class="txtR" to="/empezar_c">Empezar cita</RouterLink></button>
+   </div>
     </div>
     </template>
     
@@ -63,5 +65,5 @@
     </script>
     
     <style>
-    @import url('./estilos/paciente.css');
+    @import url('./estilos/citas.css');
     </style>

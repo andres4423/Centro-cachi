@@ -2,10 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Homepage from '../components/Home_page.vue'
 import devices from '../components/devices.vue'
-import equipo from '../components/equipo.vue'
-import paciente from '../components/paciente.vue'
+import equipo from '../components/portal_plantilla.vue'
+import paciente from '../components/paciente_d.vue'
 import citas_doc from '../components/citas_doc.vue';
 import empezar_cita from '../components/empezar_cita.vue'
+import historial_p from '../components/Historial_paciente.vue'
 const routes = [
   {
     path: '/',
@@ -34,6 +35,10 @@ component:paciente
 {
   path:'/empezar_c',
   component:empezar_cita
+},
+{
+path:'/historial',
+component:historial_p
 },
 {
 

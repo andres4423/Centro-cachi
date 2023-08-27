@@ -1,0 +1,37 @@
+.pac_cita{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 40px;
+    border:  2px solid #034DAE;
+    border-radius: 10px;
+    width: 800px;
+    background-color: white;
+}
+.empezar_boton_container{
+    width: 20px;
+    position: absolute;
+    top:170px;
+    right: 330px;
+}
+.empezar_boton_container .empezar_boton{
+    width: 180px;
+    height: 35px;
+    background-color: white;
+    border:  2px solid #034DAE;
+    border-radius: 16px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.empezar_boton a{
+    text-decoration: none;
+    color:black;
+}
+.pac_cita .espe{
+    margin-right: 60px;
+}
+.espace{
+    margin-left: 100px;
+}
+.n_paciente{
+    margin-left: 40px;
+}
