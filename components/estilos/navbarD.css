@@ -1,0 +1,32 @@
+.container_nav{
+    width: 100%;
+    background-color: #D7D7D7;
+    height: 120px;
+}
+.nav_option{
+    display: flex;
+    width: 100%;
+    margin-right:2px;
+    display: flex;
+    list-style: none;
+    
+}
+.nav_option img{
+    margin-top: 10px;
+    width: 260px;
+    margin-right: 40px;
+}
+ul li{
+    margin-top: 19px;
+    font-size: 35px;
+}
+.p_b{
+    margin-left: 30px;
+    color:white;
+}
+
+ul li a{
+    text-align: center;
+}
+
+

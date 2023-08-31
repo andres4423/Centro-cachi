@@ -3,7 +3,7 @@
 <div class="compon3">
     <div class="head">
         <img src="../assets/imagenes/logo.png">
-        
+        <h3 class="n_doc">Nombre del Dr</h3>
     </div>
     <div class="container">
         <div class="op">
@@ -14,6 +14,7 @@
         <div class="opc2">
         <RouterLink class="op2" to="/citas_doc">Citas</RouterLink>
         </div>
+        
       </div>
       <div class="op3">
         <div class="opc3">

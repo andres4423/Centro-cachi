@@ -4,7 +4,7 @@
 }
 
 .nombre_f .nombrep{
-    margin-left: 150px;
+    margin-left: 250px;
     font-size: 30px;
 }
 .nombre_f .fecha{
@@ -12,28 +12,76 @@
     font-size: 30px;
 }
 
+
 form .des_title{
     text-align: center;
     font-size: 30px;
 }
-
-form .descripcion_cita{
-    width: 800px;
-    margin-left: 160px;
-    height: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ .motivo_consulta{
+width: 800px;
+height: 200px;
+font-size: 20px;
+margin-left: 250px;
+border:  2px solid #034DAE;
 }
-.recomendaciones_t{
+.problemaActual_t{
      text-align: center;
     font-size: 30px;
     margin-top: 2px;
 }
 
+.problema_actual{
+    width: 800px;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 250px;
+    border:  2px solid #034DAE;
+}
+.hpersonal_t{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2px;
+}
+.historial_personal{
+    width: 800px;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 250px;
+    border:  2px solid #034DAE;
+}
+.observaciones_t{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2px;
+}
+.observaciones_d{
+    width: 800px;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 250px;
+    border:  2px solid #034DAE;
+}
 
 .envio_form{
     width: 170px;
-    margin-left: 450px;
+    margin-left: 950px;
     margin-top: 20px;
     background-color: white;
     cursor: pointer;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 2px solid #034DAE;
+}
+.envio_form:hover{
+    background-color: #034DAE;
+    color: white;
+}
+.container_empC{
+    background-image: url('../../assets/imagenes/fondo_paciente.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    backdrop-filter: blur(90px);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: center center;
 }

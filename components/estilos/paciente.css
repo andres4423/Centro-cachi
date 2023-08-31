@@ -1,19 +1,22 @@
 .paciente{
     display: flex;
-    margin-left: 160px;
+    margin-left: 260px;
     margin-top: 40px;
     border:  2px solid #034DAE;
     border-radius: 10px;
     width: 800px;
     background-color: white;
 }
-.am{
+.paciente_container{
     background-image: url('../../assets/imagenes/fondo_paciente.png');
     background-size: contain;
     background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
-    z-index: -1;
+    background-position: center center;
+
 }
 .desenfoque{
     width: 100%;
@@ -21,7 +24,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    backdrop-filter: blur(1000px);
+    backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
     z-index: -1;
 }
@@ -107,6 +110,7 @@ margin-top: 20px;
 }
 .historial_boton a{
     text-decoration: none;
+    color:black;
 }
 
 

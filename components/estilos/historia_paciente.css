@@ -1,0 +1,55 @@
+.historial_container{
+margin-left: 190px;
+background-color: white;
+margin-top: 40px;
+margin-right: 100px;
+width: 900px;
+background-image: url('../../assets/imagenes/fondo_paciente.png');
+background-size: contain;
+background-repeat: no-repeat;
+backdrop-filter: blur(10px);
+background-color: rgba(255, 255, 255, 0.5);
+background-position: center center;
+}
+.desenfoque{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+.historial{
+    border-radius: 10px;
+    border: 1px solid #034DAE;
+    background-color: white;
+}
+.h_title{
+    text-align: center;
+    font-size: 40px;
+}
+.p_historial{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.p_fecha_historial{
+    margin-left: 20px;
+    font-size: 23px;
+}
+.servicio_historial{
+    margin-left: 20px;
+}
+.histo_title{
+    font-size: 32px;
+    text-align: center;
+   
+    
+}
+.historial_p{
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}

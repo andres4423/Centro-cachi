@@ -1,9 +1,10 @@
-<template>
+<!-- <template>
 
 <div class="compon3">
 
     <div class="head">
         <img src="../assets/imagenes/logo.png">
+        <h3 class="n_doc">Nombre del Dr</h3>
     </div>
     <div class="container">
         <div class="op">
@@ -23,7 +24,6 @@
     </div>
     <div class="am">
         <div class="desenfoque">
-
         </div>
         <div class="paciente">
 <h2 class="n_paciente">Ferney Díaz cardenas</h2>
@@ -66,7 +66,44 @@ export default{
 }
 
 </script>
+-->
 
+
+<template>
+<div class="componen">
+<navbarD></navbarD>
+<div class="paciente_container">
+    <div class="desenfoque"></div>
+    <div class="paciente">
+<h2 class="n_paciente">Ferney Díaz cardenas</h2>
+<h2 class="esp">Terapia de apoyo</h2>
+<button class="historial_boton"><RouterLink to="/historial">Ver historial</RouterLink></button>
+</div>
+<div class="paciente">
+<h2 class="n_paciente">Ferney Díaz cardenas</h2>
+<h2 class="esp">Terapia de apoyo</h2>
+<button class="historial_boton">Ver historial</button>
+        </div>
+        <div class="paciente">
+<h2 class="n_paciente">Ferney Díaz cardenas</h2>
+<h2 class="esp">Terapia de apoyo</h2>
+<button class="historial_boton">Ver historial</button>
+        </div>
+
+</div>
+</div>
+
+</template>
+<script>
+import navbarD from './navbar_portalD.vue';
+export default{
+    name:'pacientes_d',
+    components:{
+        navbarD
+    }
+}
+</script>
 <style>
 @import url('./estilos/paciente.css');
-</style>
+</style> 
+

@@ -7,15 +7,10 @@
     width: 800px;
     background-color: white;
 }
-.empezar_boton_container{
-    width: 20px;
-    position: absolute;
-    top:170px;
-    right: 330px;
-}
-.empezar_boton_container .empezar_boton{
+.empezar_boton{
     width: 180px;
     height: 35px;
+    margin-top: 20px;
     background-color: white;
     border:  2px solid #034DAE;
     border-radius: 16px;
@@ -34,4 +29,25 @@
 }
 .n_paciente{
     margin-left: 40px;
+}
+.citas_container{
+    margin-left: 70px;
+    background-image: url('../../assets/imagenes/fondo_paciente.png');
+    background-size: contain;
+    background-repeat: no-repeat; width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: center center;
+    height: 400px;
+}
+
+.desenfoque{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
 }

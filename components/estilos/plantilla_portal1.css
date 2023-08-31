@@ -1,8 +1,16 @@
-.head{
+.head {
     background-color: #D7D7D7;
-height: auto;
+    height: auto;
+    display: flex;
 }
-.op{
+
+.head .n_doc {
+    margin-left: 800px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.op {
     width: 207px;
     background-color: #D7D7D7;
     height: 620px;
@@ -10,28 +18,30 @@ height: auto;
     position: sticky;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.op1{
+.op1 {
     margin-top: 60px;
     list-style: none;
 }
 
+.op2 button:hover {
+    background-color: #034DAE;
+}
 
-.op2{
+.op2 {
     text-decoration: none;
-width: 90px; 
-color:black;
-margin-left: 20px;
-margin-top: 20px;
+    width: 90px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
 
 }
-.vista img{
+
+.vista img {
     height: 520px;
     margin-left: 160px;
 }
-
-
-
