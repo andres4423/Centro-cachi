@@ -1,7 +1,7 @@
 <template>
-  <div class="compo">
+    <div class="compo">
 
- <navBar></navBar>
+    <navBar></navBar>
     
 
 
@@ -71,7 +71,7 @@
         </div>
         <div class="sTitulo">
             <h1>Terapia cognitivo-conductual</h1>
-           <p>Explora la terapia cognitivo-conductual (TCC) con enfoque basado en evidencia. Identifica patrones negativos, reemplázalos con estrategias saludables y aprende a manejar el estrés, superar la ansiedad y enfrentar desafíos con eficacia. Con terapeutas especializados, logra un cambio positivo y duradero en tu vida.</p>
+            <p>Explora la terapia cognitivo-conductual (TCC) con enfoque basado en evidencia. Identifica patrones negativos, reemplázalos con estrategias saludables y aprende a manejar el estrés, superar la ansiedad y enfrentar desafíos con eficacia. Con terapeutas especializados, logra un cambio positivo y duradero en tu vida.</p>
         </div>
     </div>
     
@@ -82,9 +82,9 @@
         </div>
         <div class="sTitulo">
             <h1>Terapia de apoyo</h1>
-           <p>
+            <p>
 Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terapeutas comprensivos están disponibles para escucharte, brindarte orientación y acompañarte en tu búsqueda de bienestar emocional. Ya sea en momentos difíciles o simplemente para conversar, nuestra terapia te proporciona un lugar seguro para expresarte libremente y encontrar alivio. Juntos, construiremos una base sólida para tu sanación y crecimiento personal.</p> 
-  </div>
+    </div>
     </div>
     
     <div class="servicio">
@@ -93,10 +93,10 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
         </div>
         <div class="sTitulo">
             <h1>Terapia de juego (para niños)</h1>
-           <p>Explora y crece a través de la Terapia de Juego para niños. Nuestros terapeutas expertos usan el juego como vía para comprender y abordar emociones, ayudando a los niños a expresarse y desarrollar habilidades de manera creativa. En un ambiente seguro y divertido, construimos un camino hacia un bienestar infantil duradero.
+            <p>Explora y crece a través de la Terapia de Juego para niños. Nuestros terapeutas expertos usan el juego como vía para comprender y abordar emociones, ayudando a los niños a expresarse y desarrollar habilidades de manera creativa. En un ambiente seguro y divertido, construimos un camino hacia un bienestar infantil duradero.
 
-           </p>
-  </div>
+            </p>
+    </div>
     </div>
 
     <div class="servicio">
@@ -105,9 +105,9 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
         </div>
         <div class="sTitulo">
             <h1>Terapia de grupo específica</h1>
-           <p>Encuentra apoyo específico en nuestra Terapia de Grupo. Abordamos adicciones, trastornos alimentarios y más. Únete a una comunidad de personas que entienden y trabaja con terapeutas especializados para lograr la recuperación y el crecimiento juntos.
-           </p>
-  </div>
+            <p>Encuentra apoyo específico en nuestra Terapia de Grupo. Abordamos adicciones, trastornos alimentarios y más. Únete a una comunidad de personas que entienden y trabaja con terapeutas especializados para lograr la recuperación y el crecimiento juntos.
+            </p>
+    </div>
     </div>
 
     <div class="servicio">
@@ -116,8 +116,8 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
         </div>
         <div class="sTitulo">
             <h1>Terapia psiquiátrica</h1>
-           <p>Accede a una Consulta Psiquiátrica dedicada a tu bienestar mental. Nuestros profesionales especializados evaluarán tus necesidades individuales y te brindarán orientación experta. Estamos comprometidos en trabajar contigo para encontrar soluciones y mejorar tu calidad de vida.</p>
-  </div>
+            <p>Accede a una Consulta Psiquiátrica dedicada a tu bienestar mental. Nuestros profesionales especializados evaluarán tus necesidades individuales y te brindarán orientación experta. Estamos comprometidos en trabajar contigo para encontrar soluciones y mejorar tu calidad de vida.</p>
+    </div>
     </div>
 
 </div>
@@ -127,11 +127,11 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
 
     <img class="logo" src="../assets/imagenes/logo.png">
 
-  
+
     
         <img class ="celular" src="../assets/imagenes/telefono.png">
         <p class="cel_p">300 233 6900</p>
-     
+
         <img class="correo" src="../assets/imagenes/correo.png"> 
         <p class="correo_p">centro_psicoterapiaValencia@gmail.com</p>
 
@@ -141,7 +141,7 @@ Ofrecemos terapia de apoyo con un espacio de apoyo incondicional. Nuestros terap
 
     </div>
 </div>
-  </div>
+    </div>
 </template>
 
 
