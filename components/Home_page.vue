@@ -24,7 +24,7 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
         <h3>Visión</h3>
         <p>Nuestra visión es liderar en el cuidado de la salud mental, brindando los mejores servicios para nuestros usuarios destacándonos por nuestro compromiso con el bienestar emocional y nuestra innovación tecnológica</p>
     </div>
-   
+
 </div>
 
 <div class="objetivo">
