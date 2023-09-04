@@ -2,7 +2,7 @@
     <div class="componen">
     <navbarP></navbarP>
         <label  class="espe_agendar">Especialidad</label>
-        <input type="date" name="" id="">
+        <input type="date" name="" id="calen">
                 <select class="seleccionar">
                     <option selected>Seleciona</option>
                     <option value="">Evaluación y diagnóstico psicológico </option>
@@ -109,4 +109,5 @@ import navbarP from './portal_paciente.vue';
 
 <style>
     @import url('./estilos/agendar.css');
+    
 </style>
