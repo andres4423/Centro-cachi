@@ -31,7 +31,7 @@ ul li{
 }
 .nav_options img{
     padding-right: 7px;
-    margin-right: 170px;
+    margin-right: 150px;
   
 }
 ul li a{
@@ -235,20 +235,23 @@ margin-right: 160px;
 .sombra{
     position: absolute;
     top: 1660px;
+    height: 515px;
+    width: 376px;
+    left: 42px;
 }
 .sombra2{
     position: absolute;
     top: 1660px;
     right: 460px;
     width: 396px;
-    height: 505px;
+    height: 520px;
 }
 .sombra3{
     position: absolute;
     top: 1660px;
     right: 42px;
     width: 384px;
-    height: 505px;
+    height: 520px;
 }
 .servicios_titulo{
     text-align: center;

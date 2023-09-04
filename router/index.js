@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Homepage from '../components/Home_page.vue'
-import devices from '../components/portal_paciente.vue'
+import devices from '../components/equipo.vue'
 import equipo from '../components/navbar_portalD.vue'
 import paciente from '../components/paciente_d.vue'
 import citas_doc from '../components/citas_doc.vue';
