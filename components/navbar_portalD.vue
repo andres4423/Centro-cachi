@@ -6,7 +6,6 @@
       <li class="p_b"><router-link to="/paciente">Paciente</router-link></li>
       <li class="c_b"><router-link to="/citas_doc">Citas</router-link></li>
       <li class="salir_b"><RouterLink to="/">Log out</RouterLink></li>
-     
     </ul>
 </div>
 <div class="vista">
