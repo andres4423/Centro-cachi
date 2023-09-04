@@ -86,7 +86,7 @@ El paciente Juan Camilo Rodriguez Pinto, Identificado con numero de cedula 10033
     <script>
     import navbarD from './navbar_portalD.vue';
     export default{
-        name:'historial_p',
+        name:'historial_pa',
         components:{
             navbarD
         }
