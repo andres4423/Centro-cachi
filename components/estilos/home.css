@@ -36,7 +36,7 @@ ul li{
 }
 .nav_options img{
     padding-right: 7px;
-    margin-right: 150px;
+    margin-right: 140px;
   
 }
 ul li a{
@@ -211,18 +211,18 @@ margin-right: 160px;
 .servicio3 p{
     position: absolute;
     margin-top: 0;
-    top: 2080px;
+    top: 2065px;
     right: 60px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
     color:white;
 }
 .servicio2 p{
     position: absolute;
     margin-top: 0;
-    top: 2080px;
+    top: 2065px;
     right: 480px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
     color:white;
 }
@@ -231,7 +231,7 @@ margin-right: 160px;
     margin-top: 0;
     top: 2040px;
     right: 1000px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color:white;
     text-align: justify;
@@ -240,7 +240,7 @@ margin-right: 160px;
 .sombra{
     position: absolute;
     top: 1660px;
-    height: 515px;
+    height: 460px;
     width: 376px;
     left: 42px;
 }
@@ -249,14 +249,14 @@ margin-right: 160px;
     top: 1660px;
     right: 460px;
     width: 396px;
-    height: 520px;
+    height: 460px;
 }
 .sombra3{
     position: absolute;
     top: 1660px;
     right: 42px;
     width: 384px;
-    height: 520px;
+    height: 460px;
 }
 .servicios_titulo{
     text-align: center;

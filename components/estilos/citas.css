@@ -27,22 +27,21 @@ body
 }
 .pac_cita .espe{
     margin-right: 60px;
+    margin-left: 30px;
 }
-.espace{
-    margin-left: 100px;
-}
+
 .n_paciente{
     margin-left: 40px;
 }
 .citas_container{
-    margin-left: 70px;
+    margin-left: 90px;
     background-image: url('../../assets/imagenes/fondo_paciente.png');
     background-size: contain;
     background-repeat: no-repeat; width: 100%;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
     background-position: center center;
-    height: 400px;
+    height: 450px;
 }
 
 .desenfoque{

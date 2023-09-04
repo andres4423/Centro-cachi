@@ -13,12 +13,14 @@ body
     margin-right:2px;
     display: flex;
     list-style: none;
+    margin-left: 2px;
     
 }
 .nav_option img{
     margin-top: 10px;
     width: 260px;
     margin-right: 40px;
+    margin-left: 2px;
 }
 ul li{
     margin-top: 19px;
