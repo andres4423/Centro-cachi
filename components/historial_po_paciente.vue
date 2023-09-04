@@ -3,7 +3,6 @@
     <navbarP></navbarP>
     <div class="historial_container">
         <div class="desenfoque">
-
         </div>
                 <h1 class="h_title">Historial Clínico</h1>
 
