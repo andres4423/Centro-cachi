@@ -1,5 +1,9 @@
-/* 
-:root
+body 
+{
+    font-family: 'Mate', sans-serif; /* 'Mate' debe ser el nombre de la fuente que importaste */
+}
+
+/* :root
 {
     --color-bg-calendar: #1b1e22;
     --color-cell: #e3e3e3;
@@ -96,7 +100,7 @@
     position: absolute;
     left: 35%;
     top: 10%;
-} */
+} */ 
 
 
 .espe_agendar
@@ -114,7 +118,7 @@
     left: 5%;
     border-radius: 3px;
     z-index: 2;
-    border: 1px solid rgba(3, 77, 174, 1);
+   
 }
 
 .margen
@@ -134,6 +138,14 @@
     z-index: 2;
     left: 30%;
     top: 5%;
+}
+
+#calen
+{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    z-index: 2;
 }
 
 

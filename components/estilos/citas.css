@@ -1,3 +1,7 @@
+body 
+{
+    font-family: 'Mate', sans-serif; 
+}
 .pac_cita{
     display: flex;
     margin-left: 160px;

@@ -1,3 +1,8 @@
+body 
+{
+    font-family: 'Mate', sans-serif;
+}
+
 .fondonav{
     background-image: url('../../assets/imagenes/fondo_nav.jpg') ;
     height: 650px;

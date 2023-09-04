@@ -1,3 +1,7 @@
+body 
+{
+    font-family: 'Mate', sans-serif; 
+}
 .paciente{
     display: flex;
     margin-left: 260px;
