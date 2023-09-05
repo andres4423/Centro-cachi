@@ -240,7 +240,7 @@ margin-right: 160px;
 .sombra{
     position: absolute;
     top: 1660px;
-    height: 460px;
+    height: 450px;
     width: 376px;
     left: 42px;
 }
@@ -248,15 +248,15 @@ margin-right: 160px;
     position: absolute;
     top: 1660px;
     right: 460px;
-    width: 396px;
-    height: 460px;
+    width: 392px;
+    height: 450px;
 }
 .sombra3{
     position: absolute;
     top: 1660px;
     right: 42px;
     width: 384px;
-    height: 460px;
+    height: 450px;
 }
 .servicios_titulo{
     text-align: center;

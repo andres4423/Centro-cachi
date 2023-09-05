@@ -10,6 +10,7 @@ body
     border-radius: 10px;
     width: 800px;
     background-color: white;
+margin-left: 240px;
 }
 .empezar_boton{
     width: 180px;
@@ -34,14 +35,14 @@ body
     margin-left: 40px;
 }
 .citas_container{
-    margin-left: 90px;
     background-image: url('../../assets/imagenes/fondo_paciente.png');
     background-size: contain;
-    background-repeat: no-repeat; width: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
     background-position: center center;
-    height: 450px;
 }
 
 .desenfoque{
@@ -53,4 +54,9 @@ body
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
     z-index: -1;
+}
+.b_usuario{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 50px;
 }

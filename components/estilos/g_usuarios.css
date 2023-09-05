@@ -1,0 +1,63 @@
+body 
+{
+    font-family: 'Mate', sans-serif; 
+    
+}
+
+.buscador-container{
+ background-image: url('../../assets/imagenes/fondo_paciente.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: center center;
+}
+
+.titulo_bus{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+form{
+    width: 490px;
+    margin-top: 40px;
+    border: 1px solid #034DAE;
+    margin-left: 400px;
+    height: 170px;
+    background-color: white;
+    border-radius: 20px;
+}
+.buscador{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #034DAE;
+    font-size: 18px;
+}
+.boton_buscar{
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 140px;
+    height: 30px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #034DAE;
+    cursor: pointer;
+}
+.boton_buscar a{
+    text-decoration: none;
+    color: black;
+}
+.boton_buscar:hover{
+    background-color: #034DAE;
+    color:white
+}
+.boton_buscar a:hover{
+    color:white;
+}
+
