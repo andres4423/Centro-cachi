@@ -109,7 +109,7 @@
 .espe_agendar
 {
     position: absolute;
-    top: 30%;
+    top: 43%;
     left: 23%;
     z-index: 2;
 }
@@ -117,22 +117,11 @@
 .seleccionar
 {
     position: absolute;
-    top: 38%;
+    top: 50%;
     left: 23%;
-    border-radius: 3px;
+    border-radius: 10px;
     z-index: 2;
-}
-
-.margen
-{
-    position: absolute;
     border: 1px solid rgba(3, 77, 174, 1);
-    width: 60%;
-    height: 60%;
-    margin-top: 40%;
-    margin-left: 60;
-    z-index: 1;
-    border-radius: 20px;
 }
 
 .agendar
@@ -146,15 +135,16 @@
 #calen
 {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 23%;
     z-index: 2;
+    border: 1px solid rgba(3, 77, 174, 1);
 }
 
 .text_fecha
 {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 23%;
 }
 
@@ -164,32 +154,23 @@
     background-color: rgba(3, 77, 174, 1);
     position: absolute;
     left: 50%; 
-    top: 25%;
+    top: 40%;
     transform: translateX(-50%); 
 }
 .hora_dispo
 {
     position: absolute;
-    top: 30%;
+    top: 43%;
     left: 52%;
 }
 
 
-.contenedor {
-    display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
-  }
-.contenido {
-    flex-grow: 1;
-    margin-top: 50%;
-    margin-left: 50px; /* El contenido ocupará todo el espacio disponible */
-  }
 
 .box_agendar
 {
     background-color: white;
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 20%;
     width: 60%;
     height: 40%;
@@ -236,7 +217,7 @@
     border-radius: 5px; /* Cambia el radio del borde para que sea más redondeado */
     /* Otros estilos de botón, como color de fondo, color de texto, etc. */
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 23%;
     z-index: 9999;
 }
