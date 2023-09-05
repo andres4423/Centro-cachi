@@ -26,10 +26,10 @@ z-index: 1;
     height: 35px;
 }
 .servicio{
-    margin-left: 80px;
-    display: flex;
-    margin-top: 50px;
-    border-radius: 35px;
+margin-left: 80px;
+display: flex;
+margin-top: 50px;
+border-radius: 35px;
 border-width: 0px 0.2px 4px;
 border-style: none solid solid;
 border-color: transparent #E0E0E0 #E0E0E0;

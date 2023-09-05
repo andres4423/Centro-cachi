@@ -1,8 +1,59 @@
 <template>
     <div class="componen">
     <navbarP></navbarP>
-        <label  class="espe_agendar">Especialidad</label>
+
+    <form action="" method="">
+             <div class="box_agendar">
+                <div class="cuad">
+               <div class="cuad1">
+    <div class="grupo">
+        <label for="hora1" class="hora">
+            8:00 AM
+            <input type="radio" name="hora" id="hora1">
+        </label>
+        <label for="hora2" class="hora">
+            9:00 AM
+            <input type="radio" name="hora" id="hora2">
+        </label>
+    </div>
+    <div class="grupo">
+        <label for="hora3" class="hora">
+            10:00 AM
+            <input type="radio" name="hora" id="hora3">
+        </label>
+        <label for="hora4" class="hora">
+            11:00 AM
+            <input type="radio" name="hora" id="hora4">
+        </label>
+    </div>
+    <div class="grupo">
+        <label for="hora5" class="hora">
+            2:00 PM
+            <input type="radio" name="hora" id="hora5">
+        </label>
+        <label for="hora6" class="hora">
+            3:00 PM
+            <input type="radio" name="hora" id="hora6">
+        </label>
+    </div>
+    <div class="grupo">
+        <label for="hora7" class="hora">
+            4:00 PM
+            <input type="radio" name="hora" id="hora7">
+        </label>
+        <label for="hora8" class="hora">
+            5:00 PM
+            <input type="radio" name="hora" id="hora8">
+        </label>
+    </div>
+</div>
+            </div>
+            </div>
+        <label  class="espe_agendar">Elige la especialidad que desees para agendar <br>tu cita.</label>
+        <label  class="text_fecha">Elige el día que mejor te quede.</label>
+        
         <input type="date" name="" id="calen">
+        <input type="button" value="Guardar cita" id="save">
                 <select class="seleccionar">
                     <option selected>Seleciona</option>
                     <option value="">Evaluación y diagnóstico psicológico </option>
@@ -16,6 +67,13 @@
                     <option value="">Terapia de grupo específica</option>
                     <option value="">Consulta psiquiátrica</option>
                 </select>
+                <div class="contendor">
+                    <div class="contenido">
+                    </div>
+                    <div class="linea"></div>
+                </div>
+                
+                <label class="hora_dispo">Estas son las horas que estan disponibles para <br> el día que elegiste</label>
     <div class="agendar">
 
         <div class="especialidad">
@@ -87,9 +145,20 @@
             
         </div>
     </div>
+    </form>
+
+           
+
 
     </div>
-    <div class="margen"></div>
+
+    <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+
 </template>
 
 <script>

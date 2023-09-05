@@ -63,7 +63,7 @@ component: equipo
 
 {
   path:'/agendar',
-  component:agendar
+  component: agendar
 }
 ,
   {

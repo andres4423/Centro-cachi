@@ -1,7 +1,4 @@
-body 
-{
-    font-family: 'Mate', sans-serif; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
 .pac_cita{
     display: flex;
     margin-left: 160px;

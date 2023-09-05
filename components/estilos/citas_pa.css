@@ -1,7 +1,4 @@
-body 
-{
-    font-family: 'Mate', sans-serif; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
 .background-container {
     /* Configura la imagen de fondo */
     background-image: url('../../assets/imagenes/fondo_paciente.png'); /* Reemplaza 'ruta_de_la_imagen_de_fondo.jpg' con la ruta de tu imagen de fondo */
