@@ -7,7 +7,7 @@
         <div class="titulo_bus">
             <h2>Buscar usuario</h2>
         </div>
-<form action="" method="">
+<form class="formu" action="" method="">
     <input class="buscador" type="text" placeholder="Digite la cédula">
     <button type="submit" class="boton_buscar"><Router-link to="/info_user">Buscar</Router-link></button>
 </form>
