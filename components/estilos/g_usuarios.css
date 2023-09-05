@@ -1,9 +1,4 @@
-body 
-{
-    font-family: 'Mate', sans-serif; 
-    
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
 .buscador-container{
  background-image: url('../../assets/imagenes/fondo_paciente.png');
     background-size: contain;
