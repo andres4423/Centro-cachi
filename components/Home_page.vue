@@ -99,7 +99,7 @@ mejores especialistas preparados para la mejor atención a las necesidades del u
         </div>
 </div>
 </div>
-<router-link to="/equipo"><button class="boton_equipos">Conoce más</button></router-link>
+<router-link to="/Admin_p"><button class="boton_equipos">Conoce más</button></router-link>
 <br>
 <br>
 

@@ -1,0 +1,106 @@
+body{
+    font-family: 'Mate', sans-serif; 
+}
+
+.informacion{
+    border-radius: 10px;
+    border: 1px solid #034DAE;
+    background-color: white;
+    width: 680px;
+    margin-left: 310px;
+}
+.names{
+    display: flex;
+}
+.nombre_u{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.nameU{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.identificacion{
+    display: flex;
+}
+.cedula_u{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.cedula{
+    margin-left: 105px;
+    font-size: 20px;
+}
+.direccionU{
+    display: flex;
+}
+.direccion_u{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.direcc{
+    margin-left: 165px;
+    font-size: 20px;
+}
+.estadoU{
+    display: flex;
+}
+.estado_u{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.estad{
+    margin-left: 190px;
+    font-size: 20px;
+} 
+.celularU{
+    display: flex;
+}
+.celular_u{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.celuco{
+    font-size: 20px;
+    margin-left: 190px;
+}
+.correoU{
+    display: flex;
+}
+.correo_u{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.correazo{
+    margin-left: 90px;
+    font-size: 20px;
+}
+.botoncito{
+    margin-left: 10px;
+    margin-bottom: 4px;
+
+}
+.boton_editar{
+    width: 240px;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #034DAE;
+    cursor: pointer;
+    color:black;
+    margin-left: 310px;
+}
+.boton_editar a{
+    text-decoration: none;
+    color: black;
+}
+.boton_editar:hover{
+    background-color: #034DAE;
+    color: white;
+}
+.boton_editar a:hover{
+    color:white;
+}
+

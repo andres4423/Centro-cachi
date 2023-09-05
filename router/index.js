@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Homepage from '../components/Home_page.vue'
-import devices from '../components/portal_paciente.vue'
-import equipo from '../components/navbar_portalD.vue'
+import devices from '../components/navbar_portalD.vue'
+import equipo from '../components/portal_paciente.vue'
 import paciente from '../components/paciente_d.vue'
 import citas_doc from '../components/citas_doc.vue';
 import empezar_cita from '../components/empezar_cita.vue'
@@ -11,8 +11,9 @@ import portal_p from '../components/portal_paciente.vue'
 import historial_po from'../components/historial_po_paciente.vue'
 import citas from '../components/citas.vue'
 import agendar from '../components/agendar.vue'
-
-
+import portal_D from'../components/navbarAdmin.vue'
+import gestion_usuario from '../components/g_usuario.vue'
+import info_user from '../components/informacion_usuario.vue'
 const routes = [
   {
     path: '/',
@@ -63,7 +64,22 @@ component: equipo
 
 {
   path:'/agendar',
+
   component: agendar
+
+},
+{
+  path:'/Admin_p',
+  component: portal_D
+},
+{
+  path:'/gestion_usuario',
+  component:gestion_usuario
+},
+{
+  path:'/info_user',
+  component:info_user
+
 }
 ,
   {

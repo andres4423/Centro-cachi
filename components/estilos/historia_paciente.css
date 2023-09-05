@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
 .historial_container{
 margin-left: 190px;
 background-color: white;
@@ -45,7 +47,6 @@ background-position: center center;
 .histo_title{
     font-size: 32px;
     text-align: center;
-   
     
 }
 .historial_p{

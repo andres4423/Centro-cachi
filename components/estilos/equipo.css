@@ -12,6 +12,9 @@
 {
     position: absolute;
     z-index: 2;
+    width: 200px;
+    top:750px;
+    left: 22%;
 }
 
 .cua
@@ -68,7 +71,9 @@
 {
     position: absolute;
     z-index: 2;
-    right: 20%;
+    right: 23%;
+    top: 750px;
+    width: 200px;
 }
 
 .doc2
