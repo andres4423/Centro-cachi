@@ -86,3 +86,13 @@ border:  2px solid #034DAE;
     background-color: rgba(255, 255, 255, 0.5);
     background-position: center center;
 }
+.seleccion_m{
+    margin-left: 240px;
+    width: 230px;
+    height: 25px;
+    border-radius: 8px;
+}
+.med_rec{
+    margin-left: 240px;
+    font-size: 25px;
+}

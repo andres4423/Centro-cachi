@@ -5,13 +5,18 @@
     <div class="container_empC">
                 <div class="desenfoque"></div>
                 <div class="form_cita">
-
-
                     <div class="nombre_f">
                         <h3 class="nombrep">Nombre Completo</h3>
                         <h3 class="fecha">Fecha: DD/MM/AAAA</h3>
                     </div>
                     <form action="" method="">
+                        <h3 class="med_rec">Recetar Medicina</h3>
+                        <select class="seleccion_m">
+                            <option selected>Seleccionar Medicina</option>
+                            <option value="">Pastillas dormir</option>
+                            <option value="">Gotas Valeriana</option>
+                            <option value="">Pastillas calmantes</option>
+                        </select>
                         <h2 class="des_title">Motivo de consulta</h2>
                         <textarea class="motivo_consulta" placeholder="Motivo de la consulta"></textarea>
                         <h2 class="problemaActual_t">Problema Actual</h2>
