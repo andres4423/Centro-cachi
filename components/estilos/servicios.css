@@ -1,8 +1,4 @@
-body 
-{
-    font-family: 'Mate', sans-serif; 
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
 .serv_nav{
     border-bottom: 2px solid #034DAE;
 }
