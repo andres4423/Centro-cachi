@@ -6,6 +6,7 @@
     <div class="agendar_citas">
         <h1 class="tittle">Estas son tus citas programadas</h1>
         <div class="box">
+            <button  id="refreshButton">Cancelar cita</button>
             <h2 class="name">Paciente: <br>Ferney Antonio Diaz Cardenas</h2>
             <h2 class="date">Fecha y hora de la cita: <br>13/08/2023 a las 9:00 am</h2>
             <h2 class="service">Servicio: <br>Psicoterapia indicidual</h2>
@@ -28,6 +29,7 @@
         components:{
             navbarP
         }
+        
         
     }
 

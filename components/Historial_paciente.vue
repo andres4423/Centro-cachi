@@ -11,7 +11,7 @@
                 <div class="historial">
                     <h2 class="p_historial">Paciente: Juan Camilo Rodriguez</h2>
                     <h3 class="p_fecha_historial">Fecha de la cita</h3>
-                    <hr>
+                    <hr >
                     <h2 class="servicio_historial">Servicio Ofrecido: Terapia Individual</h2>
                     <hr>
                     <h2 class="histo_title">Historial</h2>

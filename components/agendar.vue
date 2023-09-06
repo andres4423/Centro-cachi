@@ -3,9 +3,10 @@
     <navbarP></navbarP>
 
     <form action="" method="">
-             <div class="box_agendar">
+        <input type="button" value="Guardar cita" id="save">
+            <div class="box_agendar">
                 <div class="cuad">
-               <div class="cuad1">
+            <div class="cuad1">
     <div class="grupo">
         <label for="hora1" class="hora">
             8:00 AM
@@ -53,7 +54,7 @@
         <label  class="text_fecha">Elige el día que mejor te quede.</label>
         
         <input type="date" name="" id="calen">
-        <input type="button" value="Guardar cita" id="save">
+        
                 <select class="seleccionar">
                     <option selected>Seleciona</option>
                     <option value="">Evaluación y diagnóstico psicológico </option>
@@ -67,11 +68,9 @@
                     <option value="">Terapia de grupo específica</option>
                     <option value="">Consulta psiquiátrica</option>
                 </select>
-                <div class="contendor">
-                    <div class="contenido">
-                    </div>
+                
                     <div class="linea"></div>
-                </div>
+                
                 
                 <label class="hora_dispo">Estas son las horas que estan disponibles para <br> el día que elegiste</label>
     <div class="agendar">
@@ -152,12 +151,6 @@
 
     </div>
 
-    <br>
-    <br>
-    <br>
-     <br>
-    <br>
-    <br>
 
 </template>
 
