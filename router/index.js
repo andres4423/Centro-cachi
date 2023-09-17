@@ -14,6 +14,7 @@ import agendar from '../components/agendar.vue'
 import portal_D from'../components/navbarAdmin.vue'
 import gestion_usuario from '../components/g_usuario.vue'
 import info_user from '../components/informacion_usuario.vue'
+import editarInfo from '../components/editar_usu.vue'
 const routes = [
   {
     path: '/',
@@ -80,8 +81,11 @@ component: equipo
   path:'/info_user',
   component:info_user
 
-}
-,
+},
+{
+  path:'/editarInfo',
+  component:editarInfo
+},
   {
     path: '/about',
     name: 'about',

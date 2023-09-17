@@ -223,4 +223,11 @@
     top: 75%;
     left: 23%;
     z-index:3;
+    cursor: pointer;
+    width: 110px;
+}
+#save:hover{
+    background-color: #034DAE;
+    color:white;
+    border: black;
 }

@@ -1,0 +1,78 @@
+.e_correo{
+    margin-left: 85px;
+    height: 20px;
+    margin-top: 20px;
+    width: 210px;
+}
+.e_celular{
+    margin-left: 180px;
+    height: 20px;
+    margin-top: 20px;
+    width: 190px;
+}
+.e_direccion{
+    margin-left: 160px;
+    height: 20px;
+    margin-top: 20px;
+    width: 190px;
+}
+.estado_op{
+    margin-left: 187px;
+    height: 20px;
+    margin-top: 20px;
+    width: 120px;
+}
+.boton_guardar{
+    width: 240px;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #034DAE;
+    cursor: pointer;
+    color:black;
+    margin-left: 280px;
+}
+
+.boton_cancelar{
+    width: 240px;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #034DAE;
+    cursor: pointer;
+    color:black;
+    margin-left: 150px;
+}
+.boton_cancelar a{
+    text-decoration: none;
+    color: black;
+}
+.boton_guardar a{
+    text-decoration: none;
+    color: black;
+}
+.boton_cancelar:hover{
+    background-color: #034DAE;
+    color: white;
+}
+.boton_guardar:hover{
+    background-color: #034DAE;
+    color: white;
+}
+.boton_cancelar a:hover{
+color:white;
+}
+.boton_guardar a:hover{
+    color: white;
+}
+.informacion_editar{
+    border-radius: 10px;
+    border: 1px solid #034DAE;
+    background-color: white;
+    width: 680px;
+    margin-left: 250px;
+}

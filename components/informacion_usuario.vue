@@ -33,7 +33,7 @@
                    </div>
                    
                    </div>
-                <button class="boton_editar"><RouterLink to="/">Editar Informacion</RouterLink></button>    
+                <button class="boton_editar"><RouterLink to="/editarInfo">Editar Informacion</RouterLink></button>    
             </div>
             <br>
 </div>

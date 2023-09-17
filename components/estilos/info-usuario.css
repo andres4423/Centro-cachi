@@ -12,6 +12,7 @@
 .nombre_u{
     margin-left: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 .nameU{
     font-size: 20px;
@@ -23,6 +24,7 @@
 .cedula_u{
     margin-left: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 .cedula{
     margin-left: 105px;
@@ -34,6 +36,7 @@
 .direccion_u{
     margin-left: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 .direcc{
     margin-left: 165px;
@@ -45,6 +48,7 @@
 .estado_u{
     margin-left: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 .estad{
     margin-left: 190px;
@@ -56,6 +60,7 @@
 .celular_u{
     font-size: 20px;
     margin-left: 20px;
+    font-weight: bold;
 }
 .celuco{
     font-size: 20px;
@@ -67,6 +72,7 @@
 .correo_u{
     margin-left: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 .correazo{
     margin-left: 90px;

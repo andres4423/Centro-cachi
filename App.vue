@@ -1,8 +1,7 @@
 <template>
 
   <RouterView></RouterView>
-  <div class="a">
-</div>
+
    
   </template>
 
