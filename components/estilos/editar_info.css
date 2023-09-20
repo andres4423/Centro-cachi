@@ -32,7 +32,7 @@
     border: 1px solid #034DAE;
     cursor: pointer;
     color:black;
-    margin-left: 280px;
+    margin-left: 300px;
 }
 
 .boton_cancelar{
@@ -45,7 +45,7 @@
     border: 1px solid #034DAE;
     cursor: pointer;
     color:black;
-    margin-left: 150px;
+    margin-left: 190px;
 }
 .boton_cancelar a{
     text-decoration: none;
@@ -74,5 +74,5 @@ color:white;
     border: 1px solid #034DAE;
     background-color: white;
     width: 680px;
-    margin-left: 250px;
+    margin-left: 300px;
 }

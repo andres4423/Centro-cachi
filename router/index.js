@@ -15,6 +15,10 @@ import portal_D from'../components/navbarAdmin.vue'
 import gestion_usuario from '../components/g_usuario.vue'
 import info_user from '../components/informacion_usuario.vue'
 import editarInfo from '../components/editar_usu.vue'
+import gestOpcion from '../components/gestion_usuarioOp.vue'
+import info_doc from '../components/info_doctor.vue'
+import g_doc from '../components/g_doctor.vue'
+import editarDoc from '../components/editar_doc.vue'
 const routes = [
   {
     path: '/',
@@ -85,6 +89,23 @@ component: equipo
 {
   path:'/editarInfo',
   component:editarInfo
+},
+{
+  path:'/info_doc',
+  component:info_doc
+},
+
+{
+path:'/gestOp',
+component:gestOpcion
+},
+{
+path:'/g_doc',
+component:g_doc
+},
+{
+path:'/editar_doc',
+component:editarDoc
 },
   {
     path: '/about',
